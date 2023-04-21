@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/soporte/style.css">
+    <link rel="stylesheet" href="../js/apps.css">
+    
+    <title>CampersEngine</title>
+</head>
+<body>
+
+<nav>
+    <section class="container1">
+        <img id="logo" src="/images/logoWhite.png" alt="" width="150px">
+        <a href="/index.html">inicio</a>
+        <a href="/servicios/index.html">servicios</a>
+        <a href="/soporte/index.html">soporte</a>
+    </section>
+    <div class="FAQ">
+        <h1>Preguntas Mas Frecuentes</h1>
+    </div>
+    <div class="acording">
+        <!-- <div id="acordion"  class="accordion">
+            <p>¿Que Servicios ofrece Campus?</p>
+            
+        </div>
+            <div class="panel">
+                <p>campus ofrece una zona de esparcimiento y descanso llamado hunters entre otros servicios que se pueden apreciar con mas detalle en el apartado servicios</p>
+                
+            </div> -->
+        <details class="accordion">
+            <summary>¿Que Servicios ofrece Campus?</summary>
+            <p class="panel">campus ofrece una zona de esparcimiento y descanso llamado hunters entre otros servicios que se pueden apreciar con mas detalle en el apartado servicios</p>
+        </details>
+        <details id="acordion" class="accordion">
+            <summary>¿Estos Servivcios y Horarios manejan algun tipo de horario?</summary> 
+            <div class="panel"> 
+                <p>En efecto estas zonas y servicios que ofrecemos tiene respectivamente</p>
+            </div>
+        </details>
+           
+        <details id="acordion" class="accordion">
+            <summary>¿puede usar o solicitar estos servicios en cualquier momento?</summary>
+            <div class="panel">
+            <p>dependiendo del servicio, ya que algunos tiene un horario estricto a su uso y disponibilidad</p>
+            </div>
+        </details>
+        
+    </div>
+</nav>
+
+
+<script src="/soporte/index.js"></script>
+<script src="/js/db.js"></script>
+</body>

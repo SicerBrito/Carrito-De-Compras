@@ -1,0 +1,156 @@
+@import url(/style.css);
+@import url(/js/apps.css);
+
+/* nav style */
+nav{
+    height: 52px;
+}
+
+
+
+/* nav children style*/
+.container1{
+    height: 32px;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    gap:150px
+}
+.container1 img{
+    width: 8%;
+}
+.container1 div{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.container1 div img{
+width: 30px;
+height: 35px;
+}
+.container1 div img:hover{
+    cursor: pointer;
+}
+.cart{
+    width: 39px;
+    height: 38px;
+}
+
+.orden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+}
+
+/* Estilo del contenido del carrito*/
+.cart-products{
+    text-align: center;
+    position: absolute!important;
+    top: 27px;
+    right: 158px;
+    background-color: #fff;
+    padding: 0 18px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    min-width: 290px;
+}
+
+.cart-products{
+    max-width: 500ch;
+    margin-left: 70%;
+    margin-top: 1.7rem;
+    align-items: end;
+    justify-content: end;
+  }
+
+
+.cart-products h3{
+    margin-bottom: 10px ;
+}
+.cart-products .contenido img{
+    width: 150px;
+
+}
+
+.cerrar{ 
+    text-align: end;
+    font-size: 20px;
+    color: rgb(112, 94, 218);;
+}
+
+
+.close-btn:hover{
+    cursor: pointer;
+}
+.item{
+    border-bottom: solid 1px rgb(112, 94, 218);
+    margin-top: 10px;
+    padding: 10px;
+}
+.delete-product{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0px 10px 0px 10px;
+    color: rgb(112, 94, 218);
+    font-weight: bold;
+    border: solid 2px rgb(112, 94, 218);
+}
+.delete-product:hover{
+cursor: pointer;
+}
+.item-content{
+    margin-bottom: 5px;
+}
+
+
+/* estilo del titulo imagenes y catalogo */
+.products{
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.carts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.carts img{
+    width: 200px;
+    height: 160px;
+    border-radius: 5px;
+}
+.carts .value p{
+    font-family: system-ui;
+    font-weight: 700;
+    padding: 0 20px;
+    
+}
+.carts p{
+    color: black;
+}
+.carts div{
+    position: relative;
+}
+.carts a{
+
+    font-family: system-ui;
+    text-decoration: none;
+    background: rgb(112, 94, 218);
+    padding: 9px 23px;
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.carts a:hover{
+    background: #fff;
+    color: rgb(112, 94, 218);
+    border: solid 2px rgb(112, 94, 218);
+    transition-duration: .3s;
+}

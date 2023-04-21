@@ -1,0 +1,79 @@
+
+/* logo de nav en donde sea aplicable */
+img#logo{
+  width: 8%;
+  align-items: center;
+}
+
+/* style predefinido para los modals*/
+  
+
+  div#modal-contenido {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 1000px; 
+  }
+  
+    .modal button{
+    border: none;
+    background-color: rgba(90, 94, 224, 0.562);
+    border-radius: 5px;
+    color: white;
+    padding: .5rem;
+
+  }
+
+  #modal{
+    max-width: 500ch;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal h1{
+    text-align: center;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+/* estilo contenido modal */
+  table { 
+    width: 750px; 
+    border-collapse: collapse; 
+    margin:20px auto;
+    }
+  
+  th { 
+    background-color:rgba(90, 94, 224, 0.562); 
+    color: white; 
+    font-weight: bold; 
+    }
+  
+  td, th { 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+    font-size: 18px;
+    }
+  
+  .labels tr td {
+    background-color: #2cc16a;
+    font-weight: bold;
+    color: #fff;
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampersEngine</title>
+    <link rel="stylesheet" href="/tiendaComida/style.css">
+    
+</head>
+<body>
+    <nav>
+        <section class="container1"> 
+            <img id="logo" src="/images/logoWhite.png" alt="" width="150px">   
+            <div class="orden">
+                <a href="/index.html">inicio</a>
+                <a href="/servicios/index.html">servicios</a>
+                <a href="/soporte/index.html">soporte</a>
+                <div>
+                   <img id="abrir" src="/images/cart-regular-24.png" alt=""><p id="contador">0</p>  
+                </div>
+               
+            </div>
+           
+        </section> 
+        <div class="first-message">
+            <h1>Cafeteria Virtual</h1>
+            <p>Seccion Compra</p>
+            <h3><strong>Catalogo</strong></h3>
+        </div>
+        <div class="products">
+           
+
+        </div>
+        <div class="cart-products">
+            <dialog class="cart-products" id="carrito">
+                <div class="cerrar">
+                    <button id="cerrar-modal">&times;</button>
+                </div>
+                 <h3>Store</h3>
+                <div class="contenido" id="car">
+
+                </div>
+                <br>
+                <hr>
+                <h2 id="total">Total:</h2>
+            </dialog>
+        </div>
+       
+    </nav>
+
+    <header>
+    </header>
+    <script src="/js/tiendaDb.js" defer></script>
+    <script src="/js/tienda.js"  defer></script>
+</body>
+</html>
